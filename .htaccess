@@ -1,0 +1,16 @@
+# Do not remove this line or mod_rewrite rules and search engine friendly URLs will stop working
+RewriteBase /
+
+# Mod
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php
+RewriteRule ^index\.html$ index.php [T=application/x-httpd-php,L]
+RewriteRule ^data/(.*) dt/$1
+Options -Indexes
+
+# 404
+ErrorDocument 404 policy/error404.php
+# 403
+ErrorDocument 403 policy/error403.php

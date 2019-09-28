@@ -1,0 +1,68 @@
+.btn-circle.btn-xl {
+    width: 70px;
+    height: 70px;
+    padding: 10px 16px;
+    border-radius: 35px;
+    font-size: 24px;
+    line-height: 1.33;
+}
+
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    padding: 6px 0px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.42857;
+}
+
+.about {
+    padding-top: 5;
+    background-color: rgb(53, 50, 50);
+    color: white
+}
+
+.section-title-hr {
+    width: 250px;
+    border-top: solid #fed136;
+    margin-bottom: 75px;
+}
+
+.about img {
+    width: 150px;
+    height: 150px;
+    border: solid #fed136;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.col-sm-5.lorem {
+    text-align: justify
+}
+
+.kuning {
+    color: #fed136;
+    text-align: center;
+}
+
+img.test {
+    width: 50px;
+    height: 50px;
+    border: 0;
+    border-radius: 5px;
+}
+
+.haa {
+    padding: 10px;
+    background-color: rgb(4, 15, 12);
+    border-radius: 30px;
+}
+.card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+}

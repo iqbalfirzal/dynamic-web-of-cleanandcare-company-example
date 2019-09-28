@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Login Braders Web Dashboard</title>
+<link href="css/login-addon.css" rel="stylesheet" type="text/css" media="all"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+<meta name="keywords" content="Login form web template, Sign up Web Templates, Flat Web Templates, Login signup Responsive web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<link href='http://fonts.googleapis.com/css?family=Roboto:500,900italic,900,400italic,100,700italic,300,700,500italic,100italic,300italic,400' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+<script src="vendor/jquery/jquery.min.js"></script>
+</head>
+<body>
+<div class="login">
+	<h2>Web Administrator</h2>
+	<div class="login-top">
+		<h1>FORM LOGIN</h1>
+		<form method="post" action="int/login-proc.php">
+			<input type="text" id="usernameinput" value="" name="admin" placeholder="Username" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Username';}" autofocus required>
+			<input type="password" value="" name="kunci" placeholder="Password" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Password';}" required>
+			<div class="forgot">
+				<a href='#'>Lupa Password?</a>
+				<input type="submit" value="Login" >
+			</div>
+		</form>
+	</div>
+	<div class="login-bottom">
+		<h3>Batal? &nbsp;<a href="index.php">Keluar</a>&nbsp dari sini</h3>
+	</div>
+</div>	
+<div class="copyright">
+	<p>Copyright © <a href='index.php'> Braders </a> 2019</p>
+</div>
+<script type="text/javascript">
+	window.onload = function() {
+  		var input = document.getElementById("usernameinput").focus();
+	}
+</script>
+</body>
+</html>
